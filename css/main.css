@@ -39,9 +39,8 @@ figure {
   grid-row: 1 / 4;
 }
 
-img {
+figure img {
     max-width: inherit;
-    width: 100%;
 }
 .sub {
   grid-column: 1 / 4;
