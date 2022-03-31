@@ -36,6 +36,7 @@ h1 {
 
 figure {
   grid-area: banner;
+  align-self: flex-start;
 }
 
 figure img {
@@ -47,8 +48,7 @@ figure img {
   grid-column: 1 / 4;
   grid-row: 3;
   align-self: flex-end;
-  z-index: 1;
-  padding: 2 rem;
+  padding: 2rem;
 }
 
 .img1 {
