@@ -3,7 +3,8 @@ html {
   background-color: white;
   font-family: Merriweather, serif;
   line-height: 1.5;
-  margin: 8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 *, *::before, *::after {
