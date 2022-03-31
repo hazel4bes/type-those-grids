@@ -17,7 +17,7 @@ body{
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 13rem 13rem 13rem 25rem 25rem;
+  grid-template-rows: 1.5rem 13rem 13rem 25rem 25rem;
   grid-template-areas:
   "banner banner banner"
   "banner banner banner"
@@ -37,9 +37,6 @@ h1 {
 
 figure {
   grid-area: banner;
-  grid-column: 1/ 4;
-  grid-row: 1 / 4;
-  align-items: center;
 }
 
 figure img {
