@@ -19,7 +19,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.75fr .85fr .9fr;
+  grid-template-rows: 1.75fr .8fr .9fr;
   grid-template-areas:
     "banner banner banner"
     "img1 img2 img3"
