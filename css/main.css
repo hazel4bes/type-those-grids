@@ -30,12 +30,15 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
+  font-size: 1.8rem;
 }
 
 figure {
   grid-area: banner;
   grid-column: 1/ 4;
   grid-row: 1 / 4;
+  max-width: inherit;
+  width: 100%;
 }
 
 .sub {
@@ -73,7 +76,6 @@ dl dt {
 dl dd {
   font-size: 1.5rem;
   color: #000;
-  font-style: italic;
 }
 
 .artemis {
