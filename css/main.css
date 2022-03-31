@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: white;
 }
 
 *, *::before, *::after {
@@ -16,7 +17,16 @@ body{
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 3fr 3fr;
+}
+figure {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+}
+
+.sub {
+  grid-column: 1 / 4;
+  grid-row: 3;
 }
 
 h1 {
