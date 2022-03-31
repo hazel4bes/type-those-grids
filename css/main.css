@@ -20,7 +20,7 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
-    "img1 img2 img3"
+    "img1 img2 img3";
   gap: .75rem;
 }
 
