@@ -27,12 +27,6 @@ main {
 
 h1 {
   color: #000;
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  font-size: 1.8rem;
-  z-index: 1;
 }
 
 figure {
@@ -43,6 +37,7 @@ figure {
 figure img {
   margin: 0;
   max-width: inherit;
+
 }
 
 .sub {
