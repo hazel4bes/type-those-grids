@@ -40,7 +40,7 @@ h1 {
   width: 100%;
 }
 
-figure:first-child {
+figure img {
   margin: 0;
   max-width: inherit;
   width: 100%;
