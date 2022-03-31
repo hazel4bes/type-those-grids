@@ -17,8 +17,10 @@ body{
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
   grid-template-areas:
+  "banner banner banner"
+  "banner banner banner"
   "banner banner banner"
   "img1 img2 img3"
   "artemis rhodes babylon"
@@ -63,6 +65,7 @@ figure img {
 
 h2 {
   color: #fff;
+  font-size: 1.8rem;
 }
 
 p {
