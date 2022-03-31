@@ -43,8 +43,20 @@ img {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
 h2 {
   font-size: 1.8rem;
+}
+
+figure h2 {
+  margin-bottom: 0;
 }
 
 .sub {
