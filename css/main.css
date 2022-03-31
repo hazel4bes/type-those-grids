@@ -56,3 +56,18 @@ dl dd {
   color: #000;
   font-style: italic;
 }
+
+.artemis {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.rhodes {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.babylon {
+  grid-column: 5;
+  grid-row: 3;
+}
