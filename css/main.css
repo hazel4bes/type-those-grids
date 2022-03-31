@@ -19,7 +19,6 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .75fr 1fr;
   grid-template-areas:
     "banner banner banner"
     "col col col";
@@ -51,11 +50,8 @@ h2 {
 .sub {
   color: #fff;
   grid-area: banner;
-  z-index: 1;
-  align-self: flex-end;
-  margin-left: 1.5rem;
-  line-height: 1rem;
-  padding: 1rem;
+  align-self: end;
+  padding: 1rem 1.5rem;
 }
 
 p {
