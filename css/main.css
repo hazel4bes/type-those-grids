@@ -39,11 +39,14 @@ h1 {
   margin: inherit;
   width: 100%;
   align-self: flex-end;
+  margin: 0;
+  max-width: inherit;
 }
 
 figure img {
   margin: 0;
   max-width: inherit;
+  width: 100%;
 }
 
 h2 {
