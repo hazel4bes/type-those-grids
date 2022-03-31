@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  font-style: italic;
-  font-size: 1.8rem;
   margin: 0;
 }
 
@@ -27,16 +25,13 @@ main {
 
 h1 {
   color: #000;
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin: 0;
   font-size: 1.8rem;
+  font-weight: normal;
 }
 
 .banner {
   grid-area: banner;
-  margin: inherit;
-  width: 100%;
 }
 
 img {
@@ -71,13 +66,14 @@ p {
   font-size: 1.5rem;
 }
 
-dl dt {
-  font-size: 1.5rem;
-  color: #000;
+dl {
+  margin: 0;
 }
 
-dl dd {
-  font-size: 1.5rem;
-  color: #000;
-  font-style: normal;
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-left: 1rem;
 }
