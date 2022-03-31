@@ -92,15 +92,18 @@ dl dd {
 
 .artemis {
   grid-area: artemis;
+  padding-left: 1rem;
   margin-left: 1rem;
 }
 
 .rhodes {
   grid-area: rhodes;
   margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 .babylon {
   grid-area: babylon;
   margin-left: 1rem;
+  padding-left: 1rem;
 }
