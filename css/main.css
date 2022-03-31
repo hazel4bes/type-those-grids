@@ -40,7 +40,8 @@ figure {
 }
 
 figure img {
-    max-width: inherit;
+  margin: 0
+  max-width: inherit;
 }
 .sub {
   grid-column: 1 / 4;
