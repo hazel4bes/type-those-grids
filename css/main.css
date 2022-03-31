@@ -49,6 +49,7 @@ figure img {
   grid-area: banner;
   z-index: 1;
   align-self: flex-end;
+  margin-left: 1.5rem;
 }
 
 .img1 {
