@@ -46,8 +46,7 @@ figure img {
 }
 
 .sub {
-  grid-column: 1 / 4;
-  grid-row: 3;
+  grid-area: banner;
   z-index: 1;
 }
 
