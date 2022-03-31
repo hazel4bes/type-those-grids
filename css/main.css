@@ -38,12 +38,12 @@ h1 {
   grid-area: banner;
   margin: inherit;
   width: 100%;
+  align-self: flex-end;
 }
 
 figure img {
   margin: 0;
   max-width: inherit;
-  align-self: flex-end;
 }
 
 h2 {
