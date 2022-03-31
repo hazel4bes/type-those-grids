@@ -32,11 +32,12 @@ h1 {
   margin-bottom: 1rem;
   margin-left: 1rem;
   font-size: 1.8rem;
+  z-index: 1;
 }
 
 figure {
   grid-area: banner;
-  align-self: flex-start;
+  margin: inherit;
 }
 
 figure img {
