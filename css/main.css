@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: white;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,8 +10,6 @@ html {
 }
 
 body {
-  line-height: 1.5;
-  font-family: "Merriweather", serif;
   font-style: italic;
   font-size: 1.8rem;
 }
