@@ -48,6 +48,7 @@ figure img {
 .sub {
   grid-area: banner;
   z-index: 1;
+  align-self: flex-end;
 }
 
 .img1 {
