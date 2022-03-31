@@ -13,13 +13,13 @@ html {
 body {
   font-style: italic;
   font-size: 1.8rem;
-  margin: 0;
+  margin: 0
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: .75fr 1fr;
   grid-template-areas:
     "banner banner banner"
     "col col col";
@@ -38,15 +38,11 @@ h1 {
   grid-area: banner;
   margin: inherit;
   width: 100%;
-  align-self: flex-end;
-  margin: 0;
-  max-width: inherit;
 }
 
 figure img {
   margin: 0;
   max-width: inherit;
-  width: 100%;
 }
 
 h2 {
