@@ -46,6 +46,9 @@ figure img {
 .sub {
   grid-column: 1 / 4;
   grid-row: 3;
+  align-self: flex-end;
+  z-index: 1;
+  padding: 2 rem;
 }
 
 .img1 {
