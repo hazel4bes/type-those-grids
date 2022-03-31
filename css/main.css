@@ -39,6 +39,7 @@ figure {
   grid-area: banner;
   grid-column: 1/ 4;
   grid-row: 1 / 4;
+  align-items: center;
 }
 
 figure img {
