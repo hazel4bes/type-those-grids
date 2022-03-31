@@ -22,7 +22,7 @@ main {
   "banner banner banner"
   "img1 img2 img3"
   "artemis rhodes babylon"
-  gap: .75rem
+  gap: .75rem;
 }
 
 h1 {
@@ -39,7 +39,7 @@ figure {
 }
 
 figure img {
-  margin: 0
+  margin: 0;
   max-width: inherit;
 }
 .sub {
