@@ -3,6 +3,7 @@ html {
   background-color: white;
   font-family: Merriweather, serif;
   line-height: 1.5;
+  color: #000;
 }
 
 *, *::before, *::after {
@@ -12,6 +13,7 @@ html {
 body {
   font-style: italic;
   font-size: 1.8rem;
+  margin: 0.
 }
 
 main {
@@ -20,7 +22,7 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
-    "img1 img2 img3";
+    "col col col";
   gap: .75rem;
 }
 
@@ -32,9 +34,10 @@ h1 {
   font-size: 1.8rem;
 }
 
-figure {
+.banner {
   grid-area: banner;
   margin: inherit;
+  width: 100%;
 }
 
 figure img {
@@ -42,7 +45,12 @@ figure img {
   max-width: inherit;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
 .sub {
+  color: #fff;
   grid-area: banner;
   z-index: 1;
   align-self: flex-end;
@@ -51,32 +59,14 @@ figure img {
   padding: 1rem;
 }
 
-.img1 {
-  grid-area: img1;
-}
-
-.img2 {
-  grid-area: img2;
-}
-
-.img3 {
-  grid-area: img3;
-}
-
-h2 {
-  color: #fff;
-  font-size: 1.8rem;
-}
-
 p {
-  color: #fff;
   font-style: normal;
   font-size: 1.5rem;
 }
 
-h3 {
-  font-size: 1.8rem;
-  color: #000;
+figcaption {
+  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 dl dt {
@@ -88,25 +78,4 @@ dl dd {
   font-size: 1.5rem;
   color: #000;
   font-style: normal;
-}
-
-.artemis {
-  grid-area: img1;
-  padding-left: 1rem;
-  margin-left: 1rem;
-  align-self: flex-end;
-}
-
-.rhodes {
-  grid-area: img2;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  align-self: flex-end;
-}
-
-.babylon {
-  grid-area: img3;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  align-self: flex-end;
 }
