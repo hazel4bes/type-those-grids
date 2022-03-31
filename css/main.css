@@ -43,6 +43,7 @@ h1 {
 figure img {
   margin: 0;
   max-width: inherit;
+  width: 100%;
 }
 
 h2 {
