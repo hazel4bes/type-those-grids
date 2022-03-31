@@ -17,7 +17,7 @@ body{
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10rem 10rem 10rem 20rem 20rem;
+  grid-template-rows: 13rem 13rem 13rem 25rem 25rem;
   grid-template-areas:
   "banner banner banner"
   "banner banner banner"
@@ -71,6 +71,12 @@ h2 {
 p {
   color: #fff;
   font-style: normal;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #000;
 }
 
 dl dt {
