@@ -16,12 +16,12 @@ body{
 
 main {
   display: grid;
-  grid-template-areas:
+  grid-template-areas: ;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 3fr 3fr;
 }
 figure {
-  grid-area:
+  grid-area: ;
   grid-column: 1/ 4;
   grid-row: 1 / 4;
 }
