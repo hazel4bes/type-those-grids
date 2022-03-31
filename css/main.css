@@ -37,10 +37,12 @@ figure {
   grid-area: banner;
   grid-column: 1/ 4;
   grid-row: 1 / 4;
-  max-width: inherit;
-  width: 100%;
 }
 
+img {
+    max-width: inherit;
+    width: 100%;
+}
 .sub {
   grid-column: 1 / 4;
   grid-row: 3;
