@@ -94,16 +94,19 @@ dl dd {
   grid-area: img1;
   padding-left: 1rem;
   margin-left: 1rem;
+  align-self: flex-end;
 }
 
 .rhodes {
   grid-area: img2;
   margin-left: 1rem;
   padding-left: 1rem;
+  align-self: flex-end;
 }
 
 .babylon {
   grid-area: img3;
   margin-left: 1rem;
   padding-left: 1rem;
+  align-self: flex-end;
 }
